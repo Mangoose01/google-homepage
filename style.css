@@ -1,9 +1,19 @@
 .top-links {
     display: inline-block;
-    font-style: sans-serif;
+    font-style: arial;
     font-size: 14px;
 }
+.top-links a{
+    text-decoration: none;
+    color: black;
+}
+.top-links a:hover{
+    text-decoration: underline;
+}
 
+#About {
+    padding-left: 10px;
+}
 #Store {
     padding-left: 20px;
 }
@@ -19,9 +29,24 @@
 .logo-block {
     display: inline-block;
     margin: 0 auto;
-    padding-left: 750px;
+    padding-left: 800px;
 }
 #Google-logo {
     height: 8%;
-    padding-top: 400px;
+    padding-top: 300px;
+}
+#search-box {
+    outline-style: solid;
+    outline-color: #b8b7b7f6;
+    outline-width: 1px;
+    width: 650px;
+    height: 45px;
+    border-radius: 40px;
+    margin-top: 30px;
+    margin-left: 625px;
+}
+.material-icons {
+    padding-left: 8px;
+    padding-top: 12px;
+    color:#b8b7b7f6;
 }
