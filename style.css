@@ -49,7 +49,7 @@
 .logo-block {
     display: inline-block;
     margin: 0 auto;
-    padding-left: 800px;
+    padding-left: 810px;
 }
 #Google-logo {
     height: 8%;
@@ -75,5 +75,32 @@
     color:#b8b7b7f6;
 }
 
+#spacer {
+    height: 35px;
+}
 
+.search-buttons {
+    display: inline-block;
+    text-align: center;
+    font-family: 'roboto', arial;
+    background-color:#f8f9fa;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+}
 
+.search-buttons:hover {
+    outline-color:#d8d8d8f6;
+    outline-style: solid;
+    outline-width: 1px;
+}
+
+#google-search {
+    margin-left: 775px;
+    width: 150px;
+}
+
+#feeling-lucky {
+    margin-left: 20px;
+    width: 150px;
+}
