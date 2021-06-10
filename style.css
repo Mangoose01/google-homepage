@@ -1,6 +1,7 @@
+
 .top-links {
     display: inline-block;
-    font-style: arial;
+    font-family: 'roboto', 'arial';
     font-size: 14px;
 }
 .top-links a{
@@ -24,6 +25,25 @@
 
 #Images {
     padding-left: 20px;
+}
+
+#Menu {
+    padding-left: 20px;
+}
+
+#sign-in {
+    background-color: rgb(26, 115, 232);
+    height: 40px;
+    width: 100px;
+    margin-left: 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    line-height: 40px;
+    font-family: 'google sans', 'roboto', 'arial';
+}
+#sign-in:hover {
+    background-color: rgb(60, 133, 230);
 }
 
 .logo-block {
